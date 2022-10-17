@@ -1,3 +1,7 @@
 *{
     border: 1px dashed yellow;
 }
+
+.box-message{
+    min-height: 300px;
+}
