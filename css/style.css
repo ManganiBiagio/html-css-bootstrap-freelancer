@@ -10,6 +10,12 @@
 }
 
 
+footer a{
+    text-decoration: none;
+
+}
+
+
 
 .box-message{
     min-height: 300px;
@@ -86,7 +92,6 @@
     --bs-btn-disabled-border-color: var(--color-primary);
 }
 .btn-primary{
-    
     --bs-btn-bg: var(--color-primary);
     --bs-btn-border-color: white;
     --bs-btn-hover-bg: var(--color-primary-light);
@@ -95,6 +100,17 @@
     --bs-btn-active-border-color: var(--color-primary-dark);
     --bs-btn-disabled-bg: var(--color-primary);
     --bs-btn-disabled-border-color: var(--color-primary);
+}
+.btn-circle{
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid white;
+}
+.btn-circle:hover{
+    border:2px solid white
+}
+.txt-primary{
+    color: var(--color-primary);
 }
 
 .ft-size-0-8{
