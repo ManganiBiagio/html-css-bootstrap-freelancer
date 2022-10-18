@@ -1,7 +1,26 @@
-*{
-    border: 1px dashed yellow;
+:root{
+    --color-primary:#1ABC9C;
+    --color-secondary:#FFFFFF;
+    --color-third:#2C3E50;
+    --color-forth:#3A546D;
 }
+
+
 
 .box-message{
     min-height: 300px;
+}
+
+/* ------UTILITIES------- */
+.my-bg-primary{
+    background-color: var(--color-primary);
+}
+.my-bg-secondary{
+    background-color: var(--color-secondary);
+}
+.my-bg-third{
+    background-color: var(--color-third);
+}
+.my-bg-forth{
+    background-color: var(--color-forth);
 }
