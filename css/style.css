@@ -1,7 +1,11 @@
 :root{
     --color-primary:#1ABC9C;
+    --color-primary-light:#68b8a8;
+    --color-primary-dark:#14947a;
     --color-secondary:#FFFFFF;
     --color-third:#2C3E50;
+    --color-third-light:#3b4652;
+    --color-third-dark:#243240;
     --color-forth:#3A546D;
 }
 
@@ -23,4 +27,14 @@
 }
 .my-bg-forth{
     background-color: var(--color-forth);
+}
+.btn-outline-primary{
+    --bs-btn-bg: var(--color-third);
+    --bs-btn-border-color: var(--color-third);
+    --bs-btn-hover-bg: var(--color-third-light);
+    --bs-btn-hover-border-color: var(--color-third-light);
+    --bs-btn-active-bg: var(--color-third-dark);
+    --bs-btn-active-border-color: var(--color-third-dark);
+    --bs-btn-disabled-bg: var(--color-third);
+    --bs-btn-disabled-border-color: var(--color-third);
 }
