@@ -108,10 +108,13 @@ footer a{
     overflow: hidden;
 }
 .btn-circle:hover{
-    border:2px solid white
+    border: 1px solid white;
+    
+    transform: scale(1.2);
 }
 .txt-primary{
     color: var(--color-primary);
+    
 }
 
 .ft-size-0-8{
