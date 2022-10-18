@@ -55,7 +55,7 @@
 .my-bg-forth{
     background-color: var(--color-forth);
 }
-.btn-outline-primary{
+.btn-outline-third{
     --bs-btn-bg: var(--color-third);
     --bs-btn-border-color: var(--color-third);
     --bs-btn-hover-bg: var(--color-third-light);
@@ -64,6 +64,18 @@
     --bs-btn-active-border-color: var(--color-third-dark);
     --bs-btn-disabled-bg: var(--color-third);
     --bs-btn-disabled-border-color: var(--color-third);
+    
+}
+.btn-outline-primary{
+    
+    --bs-btn-bg: var(--color-primary);
+    --bs-btn-border-color: white;
+    --bs-btn-hover-bg: var(--color-primary-light);
+    --bs-btn-hover-border-color: var(--color-primary-light);
+    --bs-btn-active-bg: var(--color-primary-dark);
+    --bs-btn-active-border-color: var(--color-primary-dark);
+    --bs-btn-disabled-bg: var(--color-primary);
+    --bs-btn-disabled-border-color: var(--color-primary);
 }
 
 .ft-size-0-8{
