@@ -15,6 +15,13 @@
     min-height: 300px;
 }
 
+.my-form-style{
+    border-top: unset;
+    border-right: unset;
+    border-left: unset;
+    border-radius: 0;
+}
+
 
 
 /* -----DECORATION BOX----- */
@@ -42,6 +49,7 @@
     color:var(--color-forth);
 }
 
+
 /* ------UTILITIES------- */
 .my-bg-primary{
     background-color: var(--color-primary);
@@ -67,6 +75,17 @@
     
 }
 .btn-outline-primary{
+    
+    --bs-btn-bg: var(--color-primary);
+    --bs-btn-border-color: white;
+    --bs-btn-hover-bg: var(--color-primary-light);
+    --bs-btn-hover-border-color: var(--color-primary-light);
+    --bs-btn-active-bg: var(--color-primary-dark);
+    --bs-btn-active-border-color: var(--color-primary-dark);
+    --bs-btn-disabled-bg: var(--color-primary);
+    --bs-btn-disabled-border-color: var(--color-primary);
+}
+.btn-primary{
     
     --bs-btn-bg: var(--color-primary);
     --bs-btn-border-color: white;
