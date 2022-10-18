@@ -15,6 +15,33 @@
     min-height: 300px;
 }
 
+
+
+/* -----DECORATION BOX----- */
+.decoration-box{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+.line{
+    background-color: white;
+    height: 5px;
+    flex-grow: 1;
+    max-width: 80px;
+}
+.star{
+    color: white;
+    padding: 0 .5rem;
+}
+
+.line-dark{
+    background-color:var(--color-forth);
+}
+.star-dark{
+    color:var(--color-forth);
+}
+
 /* ------UTILITIES------- */
 .my-bg-primary{
     background-color: var(--color-primary);
@@ -46,3 +73,4 @@
 .wd-200{
     max-width: 200px;
 }
+
