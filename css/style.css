@@ -38,3 +38,11 @@
     --bs-btn-disabled-bg: var(--color-third);
     --bs-btn-disabled-border-color: var(--color-third);
 }
+
+.ft-size-0-8{
+    font-size: .8rem;
+}
+
+.wd-200{
+    max-width: 200px;
+}
