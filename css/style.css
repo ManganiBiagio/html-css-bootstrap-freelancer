@@ -112,6 +112,9 @@ footer a{
     
     transform: scale(1.2);
 }
+.btn.btn-circle:active{
+    background-color:var(--color-third-light);
+}
 .txt-primary{
     color: var(--color-primary);
     
