@@ -106,6 +106,7 @@ footer a{
     aspect-ratio: 1 / 1;
     border: 1px solid white;
     overflow: hidden;
+    width: 45px;
 }
 .btn-circle:hover{
     border: 1px solid white;
